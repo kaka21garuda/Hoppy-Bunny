@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C6D842401D1B3A20005BA7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8423F1D1B3A20005BA7F4 /* AppDelegate.swift */; };
-		C6D842421D1B3A20005BA7F4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C6D842411D1B3A20005BA7F4 /* GameScene.sks */; };
 		C6D842441D1B3A20005BA7F4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D842431D1B3A20005BA7F4 /* GameScene.swift */; };
 		C6D842461D1B3A20005BA7F4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D842451D1B3A20005BA7F4 /* GameViewController.swift */; };
 		C6D842491D1B3A20005BA7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D842471D1B3A20005BA7F4 /* Main.storyboard */; };
 		C6D8424B1D1B3A21005BA7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D8424A1D1B3A21005BA7F4 /* Assets.xcassets */; };
 		C6D8424E1D1B3A21005BA7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D8424C1D1B3A21005BA7F4 /* LaunchScreen.storyboard */; };
+		C6D842581D1B48F2005BA7F4 /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = C6D842561D1B48F2005BA7F4 /* sfx_flap.caf */; };
+		C6D842591D1B48F2005BA7F4 /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = C6D842571D1B48F2005BA7F4 /* sfx_goal.caf */; };
+		C6D8425D1D1B56D1005BA7F4 /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = C6D8425C1D1B56D1005BA7F4 /* Hero.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6D8423C1D1B3A20005BA7F4 /* Hoppy Bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hoppy Bunny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D8423F1D1B3A20005BA7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6D842411D1B3A20005BA7F4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C6D842431D1B3A20005BA7F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C6D842451D1B3A20005BA7F4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C6D842481D1B3A20005BA7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6D8424A1D1B3A21005BA7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6D8424D1D1B3A21005BA7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6D8424F1D1B3A21005BA7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D842561D1B48F2005BA7F4 /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		C6D842571D1B48F2005BA7F4 /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		C6D8425C1D1B56D1005BA7F4 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Hero.sks; path = ../Hero.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +63,26 @@
 			isa = PBXGroup;
 			children = (
 				C6D8423F1D1B3A20005BA7F4 /* AppDelegate.swift */,
-				C6D842411D1B3A20005BA7F4 /* GameScene.sks */,
+				C6D8425C1D1B56D1005BA7F4 /* Hero.sks */,
 				C6D842431D1B3A20005BA7F4 /* GameScene.swift */,
 				C6D842451D1B3A20005BA7F4 /* GameViewController.swift */,
 				C6D842471D1B3A20005BA7F4 /* Main.storyboard */,
 				C6D8424A1D1B3A21005BA7F4 /* Assets.xcassets */,
+				C6D842551D1B48F2005BA7F4 /* SFX */,
 				C6D8424C1D1B3A21005BA7F4 /* LaunchScreen.storyboard */,
 				C6D8424F1D1B3A21005BA7F4 /* Info.plist */,
 			);
 			path = "Hoppy Bunny";
+			sourceTree = "<group>";
+		};
+		C6D842551D1B48F2005BA7F4 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				C6D842561D1B48F2005BA7F4 /* sfx_flap.caf */,
+				C6D842571D1B48F2005BA7F4 /* sfx_goal.caf */,
+			);
+			name = SFX;
+			path = ../../../../../Downloads/SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D842421D1B3A20005BA7F4 /* GameScene.sks in Resources */,
+				C6D842581D1B48F2005BA7F4 /* sfx_flap.caf in Resources */,
 				C6D8424E1D1B3A21005BA7F4 /* LaunchScreen.storyboard in Resources */,
+				C6D8425D1D1B56D1005BA7F4 /* Hero.sks in Resources */,
 				C6D8424B1D1B3A21005BA7F4 /* Assets.xcassets in Resources */,
 				C6D842491D1B3A20005BA7F4 /* Main.storyboard in Resources */,
+				C6D842591D1B48F2005BA7F4 /* sfx_goal.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

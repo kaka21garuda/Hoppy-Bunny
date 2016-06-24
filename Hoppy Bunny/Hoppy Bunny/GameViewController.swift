@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  Hoppy Bunny
 //
-//  Created by Buka Cakrawala on 6/22/16.
-//  Copyright (c) 2016 __MyCompanyName__. All rights reserved.
+//  Created by Buka Cakrawala on 6/23/16.
+//  Copyright (c) 2016 Buka Cakrawala. All rights reserved.
 //
 
 import UIKit
